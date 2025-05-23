@@ -75,3 +75,19 @@ const checkWinner = () => {
 
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
+
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
+let currMode = "light";
+modeBtn.addEventListener("click", () => {
+  if (currMode === "light") {
+    currMode = "dark";
+    modeBtn.innerText = "Change Mode to Light";
+    body.setAttribute("style", "background-color: black; color: white;");
+  } else {
+        currMode = "light";
+        modeBtn.innerText = "Change Mode to Dark";
+        body.setAttribute("style", "background-color: white; color: black;");
+    }
+    console.log(currMode);
+});

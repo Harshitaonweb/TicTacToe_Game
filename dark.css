@@ -4,8 +4,13 @@
 }
 
 body {
-    background-color: #99c1de;
+    background-color: #ffffff;
     text-align: center;
+}
+
+h1 {
+    color: #c4b229;
+    font-size: 4rem;
 }
 
 .container {
@@ -33,7 +38,7 @@ body {
     border: none;
     box-shadow: 0 0 1rem;
     font-size: 8vmin;
-    color: #fcb6fa;
+    color: #000000;
     background-color:white ;
     
 }
@@ -41,23 +46,23 @@ body {
 #reset-btn {
     padding: 1rem;
     font-size: 0.9rem;
-    background-color: #abc4ff;
+    background-color: #f2de44;
     border-radius: 2rem;
-    border-color: #b388eb;
+    border-color: #de7b09;
     
 }
 
 #new-btn {
     padding: 1rem;
     font-size: 0.9rem;
-    background-color: #abc4ff;
+    background-color: #f2de44;
     border-radius: 2rem;
-    border-color: #b388eb;
+    border-color: #de7b09;
 }
 
 #msg {
     font-weight: bold;
-    color: #f1d6ff;
+    color: #e7a011;
     font-size: 6vmin;
     font-style: oblique;
 }
@@ -73,4 +78,21 @@ body {
 
 .hide {
     display: none;
+}
+
+.buttons {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#mode {
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #f2de44;
+    border-radius: 2rem;
+    border-color: #de7b09;
 }
